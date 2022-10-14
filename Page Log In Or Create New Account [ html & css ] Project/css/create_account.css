@@ -1,0 +1,109 @@
+html {
+    padding: 0%;
+    margin: 0%;
+    font-size: 15px;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background: rgb(240, 240, 240);
+}
+
+.container {
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.inputsContainer {
+    display: block;
+    background: rgb(240, 240, 240);
+    padding: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%),
+                0 8px 16px rgb(0 0 0 / 15%);
+}
+
+#input_firstName,
+#input_lastName {
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(106, 67, 196);
+    outline: 0px;
+}
+
+#input_firstName:focus {
+    border: 1.5px solid #00f;
+}
+
+#input_lastName:focus {
+    border: 1.5px solid #00f;
+}
+
+#input_date {
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(0, 150, 220);
+    outline: 0px;
+}
+
+#input_email {
+    padding: 10px 40px 10px 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(106, 67, 196);
+    outline: 0px;
+}
+
+#input_email:focus {
+    border: 1.5px solid #00f;
+}
+
+#input_passowrd1,
+#input_passowrd2 {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(106, 67, 196);
+    outline: 0px;
+}
+
+#input_passowrd1:focus {
+    border: 1.5px solid #00f;
+}
+
+#input_passowrd2:focus {
+    border: 1.5px solid #00f;
+}
+
+#sign_up {
+    background-color: #ff4400;
+    color: #FFF;
+    border: 2px solid #fff;
+    padding: 15px 80px 15px 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sign_up:hover {
+    background-color: #ff7000;
+    transition: all 0.8s ease;
+}
+
+#log_in {
+    text-decoration: none;
+    color: rgb(19, 33, 233);
+    word-spacing: -3px;
+    font-size: 17px;
+    font-weight: bolder;
+}
